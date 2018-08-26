@@ -1,0 +1,57 @@
+.container {
+    position: relative;
+    max-width: 800px;
+    font-size : 12px;
+    margin-right: 0%;
+    padding: 0%;
+}
+
+.container img{vertical-align: middle}
+.container .content{
+    position: absolute;
+    bottom: 0;
+    background:black;
+    color: #f1f1f1;
+    width: 0%;
+    padding: 0px;
+}
+
+#tiket{
+
+    width : 950;
+    height : 200;
+    margin-left: 50;
+    border : 0px solid lightgrey;
+}
+    
+
+#kotak_tiket{
+    width : 800;
+    height : 100;
+    border : 10px solid white;
+    border-top: 3px solid lightgrey;
+    background-color : white;
+    margin-bottom: 20;
+}
+
+#kotak_tiket2{
+    width : auto;
+    height : auto;
+    border : 10px solid white;
+    background-color : white;
+    border-top: 3px solid lightgrey;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+
+
+p{
+    border-bottom: 1px solid lightgrey;
+}
